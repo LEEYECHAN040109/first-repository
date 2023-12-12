@@ -3,7 +3,7 @@ The train_test_split function randomly divides the given datasets X and y into t
 The test_size=0.01 parameter represents the percentage of test data in the entire dataset; 1% of the total data is used as test data.
 Random_state=0 is the seed value used for random segmentation, which results in the same random segmentation with multiple executions of the code.
 
-***X_train, X_test, y_train, y_test = sklearn.model_selection.train_test_split(X, y, test_size=0.01, random_state=0)***
+**X_train, X_test, y_train, y_test = sklearn.model_selection.train_test_split(X, y, test_size=0.01, random_state=0)**
 
 # Model learning and prediction:
 The SVC model is used to build a support vector machine, where the gamma value is set to 1.0 to initialize the model.
