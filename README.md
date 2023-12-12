@@ -11,7 +11,9 @@ Use the fit method to train SVC models using X_train and y_train.
 Use the trained model to make predictions about the X_test data and store the results in the y_pred variable.
 
 **svc_model = SVC(random_state=0, gamma=1.0)
+
 svc_model.fit(X_train, y_train)
+
 y_pred = svc_model.predict(X_test)**
 
 **with open('svc_model.pkl', 'wb') as file:
