@@ -12,9 +12,9 @@ Use the trained model to make predictions about the X_test data and store the re
 
 **svc_model = SVC(random_state=0, gamma=1.0)
 svc_model.fit(X_train, y_train)
-y_pred = svc_model.predict(X_test)
+y_pred = svc_model.predict(X_test)**
 
-with open('svc_model.pkl', 'wb') as file:
+**with open('svc_model.pkl', 'wb') as file:
     pickle.dump(svc_model, file)**
 
 i chose this model because  know that the svc model is an effective model for text classification,
